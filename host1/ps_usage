@@ -1,0 +1,227 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0  24608  1996 ?        Ss   14:17   0:01 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    14:17   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    14:17   0:04 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   14:17   0:00 [kworker/0:0H]
+root         7  0.0  0.0      0     0 ?        S<   14:17   0:00 [kworker/u:0H]
+root         8  0.0  0.0      0     0 ?        S    14:17   0:00 [migration/0]
+root         9  0.0  0.0      0     0 ?        S    14:17   0:00 [rcu_bh]
+root        10  0.1  0.0      0     0 ?        S    14:17   0:12 [rcu_sched]
+root        11  0.0  0.0      0     0 ?        S    14:17   0:00 [watchdog/0]
+root        12  0.0  0.0      0     0 ?        S    14:17   0:00 [watchdog/1]
+root        13  0.0  0.0      0     0 ?        S    14:17   0:04 [ksoftirqd/1]
+root        14  0.0  0.0      0     0 ?        S    14:17   0:00 [migration/1]
+root        16  0.0  0.0      0     0 ?        S<   14:17   0:00 [kworker/1:0H]
+root        17  0.0  0.0      0     0 ?        S    14:17   0:00 [watchdog/2]
+root        18  0.0  0.0      0     0 ?        S    14:17   0:03 [ksoftirqd/2]
+root        19  0.0  0.0      0     0 ?        S    14:17   0:00 [migration/2]
+root        21  0.0  0.0      0     0 ?        S<   14:17   0:00 [kworker/2:0H]
+root        22  0.0  0.0      0     0 ?        S    14:17   0:00 [watchdog/3]
+root        23  0.0  0.0      0     0 ?        S    14:17   0:03 [ksoftirqd/3]
+root        24  0.0  0.0      0     0 ?        S    14:17   0:00 [migration/3]
+root        26  0.0  0.0      0     0 ?        S<   14:17   0:00 [kworker/3:0H]
+root        27  0.0  0.0      0     0 ?        S<   14:17   0:00 [cpuset]
+root        28  0.0  0.0      0     0 ?        S<   14:17   0:00 [khelper]
+root        29  0.0  0.0      0     0 ?        S    14:17   0:00 [kdevtmpfs]
+root        30  0.0  0.0      0     0 ?        S<   14:17   0:00 [netns]
+root        31  0.0  0.0      0     0 ?        S    14:17   0:00 [bdi-default]
+root        32  0.0  0.0      0     0 ?        S<   14:17   0:00 [kintegrityd]
+root        33  0.0  0.0      0     0 ?        S<   14:17   0:00 [kblockd]
+root        34  0.0  0.0      0     0 ?        S<   14:17   0:00 [ata_sff]
+root        35  0.0  0.0      0     0 ?        S    14:17   0:00 [khubd]
+root        36  0.0  0.0      0     0 ?        S<   14:17   0:00 [md]
+root        37  0.0  0.0      0     0 ?        S<   14:17   0:00 [devfreq_wq]
+root        40  0.0  0.0      0     0 ?        S    14:17   0:00 [khungtaskd]
+root        41  0.0  0.0      0     0 ?        S    14:17   0:04 [kswapd0]
+root        42  0.7  0.0      0     0 ?        SN   14:17   1:21 [ksmd]
+root        43  0.0  0.0      0     0 ?        SN   14:17   0:00 [khugepaged]
+root        44  0.0  0.0      0     0 ?        S    14:17   0:00 [fsnotify_mark]
+root        45  0.0  0.0      0     0 ?        S    14:17   0:00 [ecryptfs-kthrea]
+root        46  0.0  0.0      0     0 ?        S<   14:17   0:00 [crypto]
+root        57  0.0  0.0      0     0 ?        S<   14:17   0:00 [kthrotld]
+root        61  0.0  0.0      0     0 ?        S<   14:17   0:00 [binder]
+root        80  0.0  0.0      0     0 ?        S<   14:17   0:00 [deferwq]
+root        81  0.0  0.0      0     0 ?        S<   14:17   0:00 [charger_manager]
+root       239  0.0  0.0      0     0 ?        S    14:17   0:00 [scsi_eh_0]
+root       240  0.0  0.0      0     0 ?        S    14:17   0:00 [scsi_eh_1]
+root       241  0.0  0.0      0     0 ?        S    14:17   0:00 [scsi_eh_2]
+root       242  0.0  0.0      0     0 ?        S    14:17   0:00 [scsi_eh_3]
+root       243  0.0  0.0      0     0 ?        S    14:17   0:00 [scsi_eh_4]
+root       244  0.0  0.0      0     0 ?        S    14:17   0:00 [scsi_eh_5]
+root       275  0.0  0.0      0     0 ?        S    14:17   0:01 [jbd2/sda1-8]
+root       276  0.0  0.0      0     0 ?        S<   14:17   0:00 [ext4-dio-unwrit]
+root       411  0.0  0.0  17372   720 ?        S    14:17   0:00 upstart-udev-bridge --daemon
+root       413  0.0  0.0  22268  1536 ?        Ss   14:17   0:00 /sbin/udevd --daemon
+root       710  0.0  0.0      0     0 ?        S<   14:17   0:00 [cfg80211]
+root       725  0.0  0.0      0     0 ?        S<   14:17   0:00 [hci0]
+root       726  0.0  0.0      0     0 ?        S<   14:17   0:00 [kworker/u:1H]
+root       729  0.0  0.0      0     0 ?        S    14:17   0:00 [irq/53-mei]
+root       730  0.0  0.0      0     0 ?        S<   14:17   0:00 [kpsmoused]
+root       760  0.0  0.0      0     0 ?        S<   14:17   0:00 [iwlwifi]
+root       839  0.0  0.0      0     0 ?        S<   14:17   0:01 [kworker/0:1H]
+root       847  0.0  0.0      0     0 ?        S<   14:17   0:00 [kvm-irqfd-clean]
+root       848  0.0  0.0      0     0 ?        S<   14:17   0:00 [kmpathd]
+root       849  0.0  0.0      0     0 ?        S<   14:17   0:00 [kmpath_handlerd]
+root       854  0.0  0.0      0     0 ?        S<   14:17   0:00 [hd-audio0]
+root       884  0.0  0.0      0     0 ?        S<   14:17   0:00 [ttm_swap]
+root       886  0.0  0.0      0     0 ?        S<   14:17   0:00 [hd-audio1]
+root       959  0.0  0.0      0     0 ?        S<   14:17   0:00 [rpciod]
+root       961  0.0  0.0  50044   884 ?        Ss   14:17   0:00 /usr/sbin/sshd -D
+root       971  0.0  0.0      0     0 ?        S<   14:17   0:00 [nfsiod]
+root       990  0.0  0.0  15196   348 ?        S    14:17   0:00 upstart-socket-bridge --daemon
+root      1011  0.0  0.0  19208   624 ?        Ss   14:17   0:00 rpcbind -w
+syslog    1030  0.0  0.0 249476   892 ?        Sl   14:17   0:00 rsyslogd -c5
+root      1031  0.0  0.0  25548   220 ?        Ss   14:17   0:00 rpc.idmapd
+statd     1055  0.0  0.0  21512   640 ?        Ss   14:17   0:00 rpc.statd -L
+root      1061  0.0  0.0      0     0 ?        S    14:17   0:00 [flush-8:0]
+102       1087  0.0  0.0  25108  2236 ?        Ss   14:17   0:02 dbus-daemon --system --fork --activation=upstart
+root      1099  0.0  0.0  79048  1368 ?        Ss   14:17   0:00 /usr/sbin/modem-manager
+root      1138  0.0  0.0  21324   732 ?        Ss   14:17   0:00 /usr/sbin/bluetoothd
+root      1154  0.0  0.0 104124  2256 ?        Ss   14:17   0:00 /usr/sbin/cupsd -F
+root      1171  0.0  0.0      0     0 ?        S<   14:17   0:00 [krfcommd]
+avahi     1175  0.0  0.0  32396  1292 ?        S    14:17   0:00 avahi-daemon: running [mak.local]
+avahi     1176  0.0  0.0  32188   252 ?        S    14:17   0:00 avahi-daemon: chroot helper
+root      1189  0.0  0.0  19996   300 tty4     Ss+  14:17   0:00 /sbin/getty -8 38400 tty4
+root      1196  0.0  0.0  19996   292 tty5     Ss+  14:17   0:00 /sbin/getty -8 38400 tty5
+root      1206  0.0  0.0  19996   296 tty2     Ss+  14:17   0:00 /sbin/getty -8 38400 tty2
+root      1207  0.0  0.0  19996   300 tty3     Ss+  14:17   0:00 /sbin/getty -8 38400 tty3
+root      1209  0.0  0.0  19996   292 tty6     Ss+  14:17   0:00 /sbin/getty -8 38400 tty6
+root      1218  0.0  0.0   4468   632 ?        Ss   14:17   0:00 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+root      1236  0.0  0.0  15988   448 ?        Ss   14:17   0:01 /usr/sbin/irqbalance
+root      1241  0.0  0.0  19120   540 ?        Ss   14:17   0:00 cron
+daemon    1242  0.0  0.0  16916   160 ?        Ss   14:17   0:00 atd
+root      1252  0.0  0.0 237876  3872 ?        Ssl  14:17   0:01 NetworkManager
+root      1277  0.0  0.0 270680  1144 ?        Ssl  14:17   0:00 lightdm
+whoopsie  1282  0.0  0.0 204344  2856 ?        Ssl  14:17   0:00 whoopsie
+root      1286  0.0  0.0      0     0 ?        S<   14:17   0:00 [nfsd4]
+root      1287  0.0  0.0      0     0 ?        S<   14:17   0:00 [nfsd4_callbacks]
+root      1288  0.0  0.0      0     0 ?        S    14:17   0:00 [lockd]
+root      1291  0.0  0.0      0     0 ?        S    14:17   0:04 [nfsd]
+root      1292  0.0  0.0      0     0 ?        S    14:17   0:04 [nfsd]
+root      1293  0.0  0.0      0     0 ?        S    14:17   0:04 [nfsd]
+root      1294  0.0  0.0      0     0 ?        S    14:17   0:04 [nfsd]
+root      1295  0.0  0.0      0     0 ?        S    14:17   0:03 [nfsd]
+root      1296  0.0  0.0      0     0 ?        S    14:17   0:03 [nfsd]
+root      1297  0.0  0.0      0     0 ?        S    14:17   0:03 [nfsd]
+root      1298  0.0  0.0      0     0 ?        S    14:17   0:04 [nfsd]
+root      1305  3.5  0.5 225396 20080 tty7     Ssl+ 14:17   6:11 /usr/bin/X :0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch -background none
+root      1312  0.0  0.0 195476  2692 ?        Sl   14:17   0:01 /usr/lib/policykit-1/polkitd --no-debug
+root      1315  0.0  0.0  28412  1508 ?        Ss   14:17   0:00 /usr/sbin/rpc.mountd --manage-gids
+root      1443  3.7  0.1 920484  6068 ?        Sl   14:17   6:34 /usr/sbin/libvirtd -d
+root      1506  0.0  0.0      0     0 ?        S<   14:17   0:00 [kworker/1:1H]
+root      1516  0.0  0.0  31804  1340 ?        Ss   14:17   0:02 /sbin/wpa_supplicant -B -P /run/sendsigs.omit.d/wpasupplicant.pid -u -s -O /var/run/wpa_supplicant
+root      1540  0.0  0.0  19996   292 tty1     Ss+  14:17   0:00 /sbin/getty -8 38400 tty1
+116       1577  0.0  0.0  25980   808 ?        S    14:17   0:00 /usr/sbin/dnsmasq -u libvirt-dnsmasq --strict-order --bind-interfaces --pid-file=/var/run/libvirt/network/default.pid --conf-file= --except-interface lo --listen-address 192.168.122.1 --dhcp-range 192.168.122.2,192.168.122.254 --dhcp-leasefile=/var/lib/libvirt/dnsmasq/default.leases --dhcp-lease-max=253 --dhcp-no-override
+root      1580  0.0  0.0 154720  1040 ?        Sl   14:17   0:00 lightdm --session-child 12 15
+root      1583  0.0  0.0 121536  1584 ?        Sl   14:17   0:00 /usr/lib/accountsservice/accounts-daemon
+root      1654  0.0  0.0 2091612 2760 ?        Sl   14:17   0:00 /usr/sbin/console-kit-daemon --no-daemon
+nobody    1740  0.0  0.0  33032   648 ?        S    14:17   0:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/sendsigs.omit.d/network-manager.dnsmasq.pid --listen-address=127.0.0.1 --conf-file=/var/run/nm-dns-dnsmasq.conf --cache-size=0 --proxy-dnssec --enable-dbus --conf-dir=/etc/NetworkManager/dnsmasq.d
+mak       1773  0.0  0.1 394728  4096 ?        Ssl  14:17   0:00 gnome-session --session=ubuntu
+mak       1886  0.0  0.0  12576   316 ?        Ss   14:17   0:00 /usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session gnome-session --session=ubuntu
+mak       1889  0.0  0.0  26568   288 ?        S    14:17   0:00 /usr/bin/dbus-launch --exit-with-session gnome-session --session=ubuntu
+mak       1890  0.3  0.0  27860  3584 ?        Ss   14:18   0:37 //bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+mak       1899  0.0  0.3 909528 12056 ?        Sl   14:18   0:07 /usr/lib/gnome-settings-daemon/gnome-settings-daemon
+mak       1901  0.0  0.2 662612 11380 ?        Sl   14:18   0:04 /usr/bin/gnome-keyring-daemon --start --components=pkcs11
+root      1910  0.0  0.0 220868  3604 ?        Sl   14:18   0:01 /usr/lib/upower/upowerd
+root      1969  0.0  0.0      0     0 ?        S<   14:18   0:00 [kworker/2:1H]
+mak       2053  0.0  0.0  52392  1128 ?        S    14:18   0:00 /usr/lib/gvfs/gvfsd
+mak       2055  0.0  0.0 273452   840 ?        Sl   14:18   0:00 /usr/lib/gvfs//gvfs-fuse-daemon -f /home/mak/.gvfs
+mak       2063  7.9  1.9 1290948 75272 ?       Sl   14:18  13:59 compiz
+colord    2065  0.0  0.0 500164  3648 ?        Sl   14:18   0:00 /usr/lib/x86_64-linux-gnu/colord/colord
+mak       2071  0.0  0.0  20192   276 ?        S    14:18   0:06 syndaemon -i 2.0 -K -R -t
+mak       2078  0.0  0.0 436800  3160 ?        S<l  14:18   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+rtkit     2080  0.0  0.0 168880   424 ?        SNl  14:18   0:00 /usr/lib/rtkit/rtkit-daemon
+mak       2085  0.0  0.0  57828  2356 ?        S    14:18   0:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+mak       2091  0.0  0.0  46808  1768 ?        S    14:18   0:00 /usr/lib/gvfs/gvfsd-metadata
+mak       2092  0.0  0.0  95964   936 ?        S    14:18   0:00 /usr/lib/pulseaudio/pulse/gconf-helper
+mak       2093  0.0  0.1 434192  5168 ?        Sl   14:18   0:00 bluetooth-applet
+mak       2094  0.3  0.6 806328 23952 ?        Sl   14:18   0:33 nm-applet
+mak       2098  0.0  0.0 307724  3208 ?        Sl   14:18   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+mak       2099  0.0  0.0 455264  3784 ?        Sl   14:18   0:00 /usr/lib/gnome-settings-daemon/gnome-fallback-mount-helper
+mak       2100  0.3  0.9 690100 37392 ?        Sl   14:18   0:33 /opt/google/chrome/chrome --no-startup-window       
+mak       2109  0.0  0.0 217900  2596 ?        S    14:18   0:00 /usr/lib/gvfs/gvfs-gdu-volume-monitor
+mak       2110  0.5  0.9 1241276 37544 ?       Sl   14:18   0:57 nautilus -n
+root      2118  0.0  0.0 201852  2868 ?        Sl   14:18   0:00 /usr/lib/udisks/udisks-daemon
+root      2119  0.0  0.0  45524   428 ?        S    14:18   0:00 udisks-daemon: not polling any devices
+mak       2122  0.0  0.0  60348  1232 ?        S    14:18   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+mak       2124  0.0  0.0 142092   892 ?        Sl   14:18   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+mak       2134  0.0  0.1 326348  7256 ?        S    14:18   0:00 /opt/google/chrome/chrome --no-startup-window --type=sandbox-ipc
+mak       2135  0.0  0.0   6468    84 ?        S    14:18   0:00 /opt/google/chrome/chrome-sandbox /opt/google/chrome/chrome --type=zygote
+mak       2136  0.0  0.3 339552 15476 ?        S    14:18   0:00 /opt/google/chrome/chrome --type=zygote
+mak       2143  0.0  0.0 130928  1496 ?        S    14:18   0:00 /opt/google/chrome/nacl_helper
+mak       2145  0.0  0.0  57040  1876 ?        S    14:18   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.9 /org/gtk/gvfs/exec_spaw/0
+mak       2148  0.0  0.0  52420   880 ?        S    14:18   0:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.9 /org/gtk/gvfs/exec_spaw/1
+mak       2158  0.1  0.1 420784  7476 ?        Sl   14:18   0:15 /usr/lib/bamf/bamfdaemon
+mak       2161  0.0  0.1 331852  4100 ?        Sl   14:18   0:00 /usr/lib/gnome-disk-utility/gdu-notification-daemon
+mak       2181  0.0  0.0   4408   196 ?        Ss   14:18   0:00 /bin/sh -c /usr/bin/compiz-decorator
+mak       2182  0.0  0.2 445348 11788 ?        Sl   14:18   0:06 /usr/bin/gtk-window-decorator
+mak       2183  0.0  0.0 429500  3528 ?        Sl   14:18   0:00 telepathy-indicator
+mak       2187  1.0  0.7 540100 28404 ?        Sl   14:18   1:51 /usr/lib/unity/unity-panel-service
+mak       2189  1.0  0.1 432836  7532 ?        Sl   14:18   1:48 /usr/lib/indicator-appmenu/hud-service
+mak       2206  0.0  0.0 321328  2524 ?        Sl   14:18   0:00 /usr/lib/telepathy/mission-control-5
+mak       2211  0.0  0.0 400248  3864 ?        Sl   14:18   0:00 /usr/lib/gnome-online-accounts/goa-daemon
+mak       2214  0.3  0.0 348280  2876 ?        Sl   14:18   0:40 /usr/lib/indicator-application/indicator-application-service
+mak       2216  0.0  0.0 528624  2432 ?        Sl   14:18   0:00 /usr/lib/indicator-session/indicator-session-service
+mak       2218  0.0  0.0 603400  2360 ?        Sl   14:18   0:00 /usr/lib/indicator-sound/indicator-sound-service
+mak       2220  0.0  0.0 368052  2236 ?        Sl   14:18   0:00 /usr/lib/indicator-messages/indicator-messages-service
+mak       2222  0.0  0.1 489368  4408 ?        Sl   14:18   0:00 /usr/lib/indicator-printers/indicator-printers-service
+mak       2224  0.0  0.0 557388  2588 ?        Sl   14:18   0:00 /usr/lib/indicator-datetime/indicator-datetime-service
+mak       2258  0.0  0.0  47868  1176 ?        S    14:18   0:00 /usr/lib/geoclue/geoclue-master
+mak       2260  0.0  0.0 335000  3548 ?        Sl   14:18   0:00 /usr/lib/ubuntu-geoip/ubuntu-geoip-provider
+mak       2271  0.0  0.3 339552 13688 ?        S    14:18   0:00 /opt/google/chrome/chrome --type=zygote
+mak       2292  0.0  0.1 420028  5480 ?        Sl   14:18   0:04 zeitgeist-datahub
+mak       2293  0.0  0.0 310072  3324 ?        Sl   14:18   0:00 gnome-screensaver
+mak       2299  0.0  0.1 349904  4828 ?        Sl   14:18   0:01 /usr/bin/zeitgeist-daemon
+mak       2309  0.0  0.6 263928 24608 ?        Sl   14:18   0:01 /usr/lib/zeitgeist/zeitgeist-fts
+mak       2319  0.0  0.0  11392    76 ?        S    14:18   0:00 /bin/cat
+mak       2324  0.1  1.1 952692 46668 ?        Sl   14:18   0:19 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtrials=AutocompleteDynamicTrial_2/Postperiod_EnableZeroSuggest_R7_Stable_Control/DeferBackgroundExtensionCreation/RateLimited/Prerender/PrerenderEnabled/PrerenderLocalPredictorSpec/LocalPredictor=Disabled/Test0PercentDefault/group_01/UMA-Dynamic-Binary-Uniformity-Trial/default/UMA-New-Install-Uniformity-Trial/Control/UMA-Population-Restrict/normal/UMA-Session-Randomized-Uniformity-Trial-5-Percent/group_12/UMA-Uniformity-Trial-1-Percent/group_28/UMA-Uniformity-Trial-10-Percent/group_09/UMA-Uniformity-Trial-100-Percent/group_01/UMA-Uniformity-Trial-20-Percent/group_01/UMA-Uniformity-Trial-5-Percent/group_07/UMA-Uniformity-Trial-50-Percent/group_01/ --enable-deadline-scheduling --extension-process --renderer-print-preview --disable-webgl --disable-pepper-3d --disable-gl-multisampling --disable-accelerated-compositing --disable-accelerated-2d-canvas --disable-accelerated-video-decode --channel=2100.0.2081443498
+mak       2347  0.0  0.2 353672  8164 ?        Sl   14:18   0:00 /opt/google/chrome/chrome --type=plugin --plugin-path=/home/mak/.config/google-chrome/Default/Extensions/nckgahadagoaajjgafhacjanaoiihapd/2014.324.433.1_0/plugin/libace.so --lang=en-US --channel=2100.3.716270178
+root      2359  0.0  0.0      0     0 ?        S<   14:18   0:00 [kworker/3:1H]
+mak       2360  0.0  0.1 407036  7780 ?        Sl   14:19   0:00 update-notifier
+mak       2366  0.0  0.0 262096  1432 ?        Sl   14:19   0:00 /usr/lib/dconf/dconf-service
+root      2383  0.0  0.2  95408  9644 ?        S    14:19   0:00 /usr/bin/python /usr/lib/system-service/system-service-d
+mak       2387  0.0  2.2 666236 87980 ?        SNl  14:19   0:08 /usr/bin/python /usr/bin/update-manager --no-focus-on-map
+mak       2456  0.0  0.2 416688  8112 ?        Sl   14:19   0:00 /usr/lib/unity-lens-applications/unity-applications-daemon
+mak       2458  0.0  0.1 811372  4040 ?        Sl   14:19   0:00 /usr/lib/unity-lens-files/unity-files-daemon
+mak       2460  0.0  0.1 803964  5032 ?        Sl   14:19   0:00 /usr/lib/unity-lens-music/unity-music-daemon
+mak       2462  0.0  0.3 367552 12492 ?        Sl   14:19   0:00 /usr/bin/python /usr/lib/unity-lens-video/unity-lens-video
+mak       2506  0.0  0.4 561408 16888 ?        Sl   14:19   0:00 /usr/bin/python /usr/lib/unity-scope-video-remote/unity-scope-video-remote
+mak       2508  0.0  0.0 586424  1932 ?        Sl   14:19   0:00 /usr/lib/unity-lens-music/unity-musicstore-daemon
+mak       2535  0.0  0.0 289500  1888 ?        Sl   14:20   0:00 /usr/lib/deja-dup/deja-dup/deja-dup-monitor
+mak       2548  0.0  0.2 362112  9840 ?        Sl   14:22   0:07 /usr/lib/notify-osd/notify-osd
+mak       3111  0.0  0.0 273812   780 ?        Sl   14:43   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+115       3926 16.6 17.3 1277668 685352 ?      Sl   14:48  24:13 /usr/bin/kvm -S -M pc-1.0 -enable-kvm -m 850 -smp 1,sockets=1,cores=1,threads=1 -name Suse12 -uuid bf7e4b3d-a2a2-5d83-974a-3c0db1b2b578 -nodefconfig -nodefaults -chardev socket,id=charmonitor,path=/var/lib/libvirt/qemu/Suse12.monitor,server,nowait -mon chardev=charmonitor,id=monitor,mode=control -rtc base=utc -no-shutdown -drive file=/var/lib/libvirt/images/Suse12.img,if=none,id=drive-ide0-0-0,format=raw -device ide-drive,bus=ide.0,unit=0,drive=drive-ide0-0-0,id=ide0-0-0,bootindex=1 -drive if=none,media=cdrom,id=drive-ide0-1-0,readonly=on,format=raw -device ide-drive,bus=ide.1,unit=0,drive=drive-ide0-1-0,id=ide0-1-0 -netdev tap,fd=18,id=hostnet0 -device rtl8139,netdev=hostnet0,id=net0,mac=52:54:00:a8:c5:6d,bus=pci.0,addr=0x3 -chardev pty,id=charserial0 -device isa-serial,chardev=charserial0,id=serial0 -usb -vnc 127.0.0.1:0 -vga cirrus -device intel-hda,id=sound0,bus=pci.0,addr=0x4 -device hda-duplex,id=sound0-codec0,bus=sound0.0,cad=0 -device virtio-balloon-pci,id=balloon0,bus=pci.0,addr=0x5
+root      3927  0.0  0.0      0     0 ?        S    14:48   0:00 [kvm-pit/3926]
+115       3955  0.8 12.7 1280236 504560 ?      Sl   14:48   1:14 /usr/bin/kvm -S -M pc-1.0 -enable-kvm -m 850 -smp 1,sockets=1,cores=1,threads=1 -name mint13 -uuid 9dedf5e2-b96c-069b-647e-8392e9a9c31f -nodefconfig -nodefaults -chardev socket,id=charmonitor,path=/var/lib/libvirt/qemu/mint13.monitor,server,nowait -mon chardev=charmonitor,id=monitor,mode=control -rtc base=utc -no-shutdown -drive file=/var/lib/libvirt/images/mint13.img,if=none,id=drive-ide0-0-0,format=raw -device ide-drive,bus=ide.0,unit=0,drive=drive-ide0-0-0,id=ide0-0-0,bootindex=1 -drive if=none,media=cdrom,id=drive-ide0-1-0,readonly=on,format=raw -device ide-drive,bus=ide.1,unit=0,drive=drive-ide0-1-0,id=ide0-1-0 -netdev tap,fd=18,id=hostnet0 -device rtl8139,netdev=hostnet0,id=net0,mac=52:54:00:20:bd:50,bus=pci.0,addr=0x3 -chardev pty,id=charserial0 -device isa-serial,chardev=charserial0,id=serial0 -usb -vnc 127.0.0.1:1 -vga cirrus -device intel-hda,id=sound0,bus=pci.0,addr=0x4 -device hda-duplex,id=sound0-codec0,bus=sound0.0,cad=0 -device virtio-balloon-pci,id=balloon0,bus=pci.0,addr=0x5
+root      3956  0.0  0.0      0     0 ?        S    14:48   0:00 [kvm-pit/3955]
+115       3987  0.9 13.9 1182644 549832 ?      Sl   14:48   1:19 /usr/bin/kvm -S -M pc-1.0 -enable-kvm -m 750 -smp 1,sockets=1,cores=1,threads=1 -name vm2 -uuid 95d9c43c-c09e-b893-636f-b88609d54b56 -nodefconfig -nodefaults -chardev socket,id=charmonitor,path=/var/lib/libvirt/qemu/vm2.monitor,server,nowait -mon chardev=charmonitor,id=monitor,mode=control -rtc base=utc -no-shutdown -drive file=/var/lib/libvirt/images/vm2.img,if=none,id=drive-ide0-0-0,format=raw -device ide-drive,bus=ide.0,unit=0,drive=drive-ide0-0-0,id=ide0-0-0,bootindex=1 -drive if=none,media=cdrom,id=drive-ide0-1-0,readonly=on,format=raw -device ide-drive,bus=ide.1,unit=0,drive=drive-ide0-1-0,id=ide0-1-0 -netdev tap,fd=18,id=hostnet0 -device rtl8139,netdev=hostnet0,id=net0,mac=52:54:00:8a:57:36,bus=pci.0,addr=0x3 -chardev pty,id=charserial0 -device isa-serial,chardev=charserial0,id=serial0 -usb -vnc 127.0.0.1:2 -vga cirrus -device intel-hda,id=sound0,bus=pci.0,addr=0x4 -device hda-duplex,id=sound0-codec0,bus=sound0.0,cad=0 -device virtio-balloon-pci,id=balloon0,bus=pci.0,addr=0x5
+root      3988  0.0  0.0      0     0 ?        S    14:48   0:00 [kvm-pit/3987]
+root      6749  0.0  0.0  22264  1524 ?        S    15:07   0:00 /sbin/udevd --daemon
+root      6796  0.0  0.0  22264  1188 ?        S    15:08   0:00 /sbin/udevd --daemon
+root      7428  0.0  0.0      0     0 ?        S    15:19   0:04 [kworker/1:6]
+root      7434  0.0  0.0      0     0 ?        S    15:19   0:02 [kworker/3:7]
+root      7439  0.0  0.0      0     0 ?        S    15:19   0:02 [kworker/2:3]
+mak       8370  7.0  1.4 790828 58908 ?        Ssl  15:22   7:51 /usr/bin/python /usr/share/virt-manager/virt-manager.py
+mak       8395  0.1  0.0      0     0 ?        Z    15:22   0:11 [ssh] <defunct>
+mak       8406  0.1  0.0      0     0 ?        Z    15:23   0:12 [ssh] <defunct>
+mak       9071  2.7  2.4 856372 95280 ?        Sl   15:28   2:54 gedit /home/mak/temp2.sh
+lp       13118  0.0  0.0  52152  1692 ?        S    15:53   0:00 /usr/lib/cups/notifier/dbus dbus:// 
+root     16093  0.0  0.0      0     0 ?        S    16:18   0:00 [kworker/3:1]
+root     18230  0.0  0.0      0     0 ?        S    16:38   0:00 [kworker/u:0]
+root     19840  0.0  0.0      0     0 ?        S    16:57   0:00 [kworker/0:1]
+root     19858  0.0  0.0      0     0 ?        S    17:00   0:00 [kworker/1:1]
+root     19862  0.0  0.0      0     0 ?        S    17:01   0:00 [kworker/2:1]
+root     20152  0.0  0.0      0     0 ?        S    17:06   0:00 [kworker/u:2]
+root     20232  0.0  0.0      0     0 ?        S    17:08   0:00 [kworker/0:0]
+mak      20360  0.0  0.0   4408   612 ?        Ss   17:10   0:00 /bin/sh -c gnome-terminal
+mak      20361  0.3  0.4 525056 17448 ?        Sl   17:10   0:00 gnome-terminal
+mak      20365  0.0  0.0  14796   824 ?        S    17:10   0:00 gnome-pty-helper
+mak      20367  0.1  0.1  27496  4580 pts/1    Ss   17:10   0:00 bash
+mak      20850  0.0  0.0   4304   612 pts/1    S+   17:12   0:00 ./algo.out
+root     20999  0.0  0.0      0     0 ?        S    17:12   0:00 [kworker/u:1]
+root     21017  0.0  0.0      0     0 ?        S    17:13   0:00 [kworker/0:2]
+mak      21048  0.0  0.0   4408   608 pts/1    S+   17:13   0:00 sh -c ./prog.out
+mak      21049  0.0  0.0   4300   508 pts/1    S+   17:13   0:00 ./prog.out
+mak      21050  0.0  0.0   4408   608 pts/1    S+   17:13   0:00 sh -c sh vm_usage.sh
+mak      21051  0.0  0.0   4408   612 pts/1    S+   17:13   0:00 sh vm_usage.sh
+mak      21052  0.0  0.0  22368  1272 pts/1    R+   17:13   0:00 ps axu
